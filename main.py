@@ -11,7 +11,8 @@ sad_words = ["sad", "depressed", "hopeless", "despairing", "miserable", "mournfu
 encouragements = ["Don't give up", "Keep pushing", "Stay strong", "Come on! You can do it", "Hang in there"]
 
 def read_token():
-    return appp.TK
+    api_key = {YOUR_DISCORD_API_HERE}
+    return api_key
 
 def get_quote():
     response = requests.get("https://zenquotes.io/api/random")
