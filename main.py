@@ -2,7 +2,6 @@ import discord
 import requests
 import json
 import random
-import appp
 
 client = discord.Client()
 
